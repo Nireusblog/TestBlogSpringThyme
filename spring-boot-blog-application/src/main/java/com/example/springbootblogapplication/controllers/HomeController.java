@@ -22,6 +22,5 @@ public class HomeController {
         return "home";
     }
     //test
-    //test3
 }
 
