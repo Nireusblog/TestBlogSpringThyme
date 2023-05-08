@@ -21,5 +21,7 @@ public class HomeController {
         model.addAttribute("posts", posts);
         return "home";
     }
+    //test
+    //test2
 }
 
