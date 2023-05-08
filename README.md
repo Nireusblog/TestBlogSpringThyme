@@ -1,2 +1,2 @@
-# testBlogByUyen
+# ZipBlogApplication
 creating blog web application
