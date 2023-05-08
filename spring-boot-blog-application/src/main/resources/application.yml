@@ -1,0 +1,24 @@
+
+#setup server port to be 3000
+server.port: 3000
+
+
+#spring:
+#  datasource:
+#  url: jdbc:mysql://localhost:3306/posts
+#  driverClassName: com.mysql.cj.jdbc.Driver
+#  username: root
+#  password: sickwithit@517
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+
+
+spring.datasource.url: jdbc:mysql://localhost:3306/posts
+spring.datasource.username: admin
+spring.datasource.password: ZipCode123
+spring.datasource.driver-class-name: com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto: update
+spring.jpa.show-sql: true
