@@ -1,5 +1,4 @@
-# Technical Design Document: Blog Application
-
+g
 ## Overview
 The Blog Application is a web application designed to allow users to create and view blog posts. The application consists of a front-end user interface built using HTML, CSS, and JavaScript, and a back-end server built using Java and the Spring Boot framework. The server-side application stores data in a MySQL database.
 
