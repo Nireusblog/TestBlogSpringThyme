@@ -1,0 +1,26 @@
+# heroku.yml
+
+# The name of your application.
+name: zipblog
+
+# The region that your application should be deployed to.
+region: us-east-1
+
+# The stack that your application should use.
+stack: cedar-14
+
+# The buildpacks that your application should use.
+buildpacks:
+  - java
+  - heroku/jvm
+
+# The environment variables that your application should use.
+env:
+  SPRING_PROFILES_ACTIVE: production
+  TZ: America/New_York
+
+# The port that your application should listen on.
+port: 8080
+
+# The command that Heroku should use to start your application.
+web: java -jar target/zipblog-0.0.1-SNAPSHOT.jar
