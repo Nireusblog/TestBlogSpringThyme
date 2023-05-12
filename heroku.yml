@@ -20,7 +20,7 @@ env:
   TZ: America/New_York
 
 # The port that your application should listen on.
-port: 8080
+port: 3000
 
 # The command that Heroku should use to start your application.
 web: java -jar target/ZipBlog.jar
