@@ -23,4 +23,4 @@ env:
 port: 8080
 
 # The command that Heroku should use to start your application.
-web: java -jar target/zipblog-0.0.1-SNAPSHOT.jar
+web: java -jar target/ZipBlog.jar
