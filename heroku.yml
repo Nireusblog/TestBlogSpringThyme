@@ -11,7 +11,7 @@ stack: heroku-22
 
 # The buildpacks that your application should use.
 buildpacks:
-  - java
+#  - java
   - heroku/jvm
 
 # The environment variables that your application should use.
