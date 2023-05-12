@@ -1,13 +1,13 @@
 # heroku.yml
 
 # The name of your application.
-name: zipblog
+name: ZipBlog
 
 # The region that your application should be deployed to.
 region: us-east-1
 
 # The stack that your application should use.
-stack: cedar-14
+stack: heroku-22
 
 # The buildpacks that your application should use.
 buildpacks:
